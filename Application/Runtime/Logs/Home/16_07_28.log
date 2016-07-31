@@ -1,0 +1,2253 @@
+[ 2016-07-28T09:01:11+08:00 ] ::1 /tangxiang/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021145s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.1949s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.3593s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0348s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE ( status = 0 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_article` WHERE ( status = 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0306s ]
+SQL: SELECT * FROM `blog_user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0111s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_slides` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `blog_slides` ORDER BY id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.140927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.021408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.075402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.075468s ]
+
+[ 2016-07-28T09:07:06+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Message&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0476s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_liuyan` [ RunTime:0.0167s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_liuyan` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_liuyan` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001107s ]
+
+[ 2016-07-28T09:07:06+08:00 ] ::1 /tangxiang/index.php/Home/Message/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000793s ]
+
+[ 2016-07-28T09:07:40+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Message&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_liuyan` [ RunTime:0.0024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_liuyan` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_liuyan` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2016-07-28T09:07:40+08:00 ] ::1 /tangxiang/index.php/Home/Message/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2016-07-28T09:07:41+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Message&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0376s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_liuyan` [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_liuyan` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_liuyan` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2016-07-28T09:07:41+08:00 ] ::1 /tangxiang/index.php/Home/Message/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001050s ]
+
+[ 2016-07-28T09:12:43+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Message&a=send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0322s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0333s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_liuyan` [ RunTime:0.0028s ]
+SQL: INSERT INTO `blog_liuyan` (`title`,`name`,`content`,`color`,`ip`,`ctime`) VALUES ('你好','噢我不能忍','我准备扩展我的内容','#F7A54A','::1','1469668363') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_email_type` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `blog_email_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8192] Function ereg() is deprecated D:\XAMPP\xampp\htdocs\tangxiang\ThinkPHP\Library\Org\Util\Smtp.class.php 第 424 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\XAMPP\xampp\htdocs\tangxiang\ThinkPHP\Library\Org\Util\Smtp.class.php 第 440 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\XAMPP\xampp\htdocs\tangxiang\ThinkPHP\Library\Org\Util\Smtp.class.php 第 442 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\XAMPP\xampp\htdocs\tangxiang\ThinkPHP\Library\Org\Util\Smtp.class.php 第 67 行.
+NOTIC: [8192] Function ereg() is deprecated D:\XAMPP\xampp\htdocs\tangxiang\ThinkPHP\Library\Org\Util\Smtp.class.php 第 424 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\XAMPP\xampp\htdocs\tangxiang\ThinkPHP\Library\Org\Util\Smtp.class.php 第 440 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\XAMPP\xampp\htdocs\tangxiang\ThinkPHP\Library\Org\Util\Smtp.class.php 第 442 行.
+NOTIC: [8192] Function ereg() is deprecated D:\XAMPP\xampp\htdocs\tangxiang\ThinkPHP\Library\Org\Util\Smtp.class.php 第 338 行.
+NOTIC: [8192] Function ereg() is deprecated D:\XAMPP\xampp\htdocs\tangxiang\ThinkPHP\Library\Org\Util\Smtp.class.php 第 338 行.
+NOTIC: [8192] Function ereg() is deprecated D:\XAMPP\xampp\htdocs\tangxiang\ThinkPHP\Library\Org\Util\Smtp.class.php 第 338 行.
+NOTIC: [8192] Function ereg() is deprecated D:\XAMPP\xampp\htdocs\tangxiang\ThinkPHP\Library\Org\Util\Smtp.class.php 第 338 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022265s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001313s ]
+
+[ 2016-07-28T09:12:45+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Message&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_liuyan` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_liuyan` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_liuyan` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013457s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001137s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001234s ]
+
+[ 2016-07-28T09:12:45+08:00 ] ::1 /tangxiang/index.php/Home/Message/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2016-07-28T09:14:21+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Message&a=send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0413s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0323s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_liuyan` [ RunTime:0.0027s ]
+SQL: INSERT INTO `blog_liuyan` (`title`,`name`,`content`,`color`,`ip`,`ctime`) VALUES ('没什么大不了','爸妈','事情过去就过去了','#18A689','::1','1469668461') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_type` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `blog_email_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8192] Function ereg() is deprecated D:\XAMPP\xampp\htdocs\tangxiang\ThinkPHP\Library\Org\Util\Smtp.class.php 第 424 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\XAMPP\xampp\htdocs\tangxiang\ThinkPHP\Library\Org\Util\Smtp.class.php 第 440 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\XAMPP\xampp\htdocs\tangxiang\ThinkPHP\Library\Org\Util\Smtp.class.php 第 442 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\XAMPP\xampp\htdocs\tangxiang\ThinkPHP\Library\Org\Util\Smtp.class.php 第 67 行.
+NOTIC: [8192] Function ereg() is deprecated D:\XAMPP\xampp\htdocs\tangxiang\ThinkPHP\Library\Org\Util\Smtp.class.php 第 424 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\XAMPP\xampp\htdocs\tangxiang\ThinkPHP\Library\Org\Util\Smtp.class.php 第 440 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\XAMPP\xampp\htdocs\tangxiang\ThinkPHP\Library\Org\Util\Smtp.class.php 第 442 行.
+NOTIC: [8192] Function ereg() is deprecated D:\XAMPP\xampp\htdocs\tangxiang\ThinkPHP\Library\Org\Util\Smtp.class.php 第 338 行.
+NOTIC: [8192] Function ereg() is deprecated D:\XAMPP\xampp\htdocs\tangxiang\ThinkPHP\Library\Org\Util\Smtp.class.php 第 338 行.
+NOTIC: [8192] Function ereg() is deprecated D:\XAMPP\xampp\htdocs\tangxiang\ThinkPHP\Library\Org\Util\Smtp.class.php 第 338 行.
+NOTIC: [8192] Function ereg() is deprecated D:\XAMPP\xampp\htdocs\tangxiang\ThinkPHP\Library\Org\Util\Smtp.class.php 第 338 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000988s ]
+
+[ 2016-07-28T09:14:22+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Message&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_liuyan` [ RunTime:0.0024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_liuyan` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_liuyan` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012408s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2016-07-28T09:14:23+08:00 ] ::1 /tangxiang/index.php/Home/Message/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001452s ]
+
+[ 2016-07-28T09:15:22+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Message&a=send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0403s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0333s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000346s ]
+
+[ 2016-07-28T09:15:31+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Message&a=send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0237s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0347s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014475s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000888s ]
+
+[ 2016-07-28T09:15:37+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Message&a=send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.2271s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0454s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0470s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013651s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000370s ]
+
+[ 2016-07-28T09:16:03+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Message&a=send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0163s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0332s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0327s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_liuyan` [ RunTime:0.0059s ]
+SQL: INSERT INTO `blog_liuyan` (`title`,`name`,`content`,`color`,`ip`,`ctime`) VALUES ('哈哈','笑看风云','知道吗  你笔调太高','#000000','::1','1469668563') [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_email_type` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `blog_email_type` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8192] Function ereg() is deprecated D:\XAMPP\xampp\htdocs\tangxiang\ThinkPHP\Library\Org\Util\Smtp.class.php 第 424 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\XAMPP\xampp\htdocs\tangxiang\ThinkPHP\Library\Org\Util\Smtp.class.php 第 440 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\XAMPP\xampp\htdocs\tangxiang\ThinkPHP\Library\Org\Util\Smtp.class.php 第 442 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\XAMPP\xampp\htdocs\tangxiang\ThinkPHP\Library\Org\Util\Smtp.class.php 第 67 行.
+NOTIC: [8192] Function ereg() is deprecated D:\XAMPP\xampp\htdocs\tangxiang\ThinkPHP\Library\Org\Util\Smtp.class.php 第 424 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\XAMPP\xampp\htdocs\tangxiang\ThinkPHP\Library\Org\Util\Smtp.class.php 第 440 行.
+NOTIC: [8192] Function ereg_replace() is deprecated D:\XAMPP\xampp\htdocs\tangxiang\ThinkPHP\Library\Org\Util\Smtp.class.php 第 442 行.
+NOTIC: [8192] Function ereg() is deprecated D:\XAMPP\xampp\htdocs\tangxiang\ThinkPHP\Library\Org\Util\Smtp.class.php 第 338 行.
+NOTIC: [8192] Function ereg() is deprecated D:\XAMPP\xampp\htdocs\tangxiang\ThinkPHP\Library\Org\Util\Smtp.class.php 第 338 行.
+NOTIC: [8192] Function ereg() is deprecated D:\XAMPP\xampp\htdocs\tangxiang\ThinkPHP\Library\Org\Util\Smtp.class.php 第 338 行.
+NOTIC: [8192] Function ereg() is deprecated D:\XAMPP\xampp\htdocs\tangxiang\ThinkPHP\Library\Org\Util\Smtp.class.php 第 338 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001607s ]
+
+[ 2016-07-28T09:16:04+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Message&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_liuyan` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_liuyan` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_liuyan` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2016-07-28T09:16:04+08:00 ] ::1 /tangxiang/index.php/Home/Message/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000695s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2016-07-28T09:17:07+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Message&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_liuyan` [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_liuyan` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_liuyan` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000780s ]
+
+[ 2016-07-28T09:17:07+08:00 ] ::1 /tangxiang/index.php/Home/Message/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001307s ]
+
+[ 2016-07-28T09:17:18+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Message&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_liuyan` [ RunTime:0.0024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_liuyan` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_liuyan` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2016-07-28T09:17:19+08:00 ] ::1 /tangxiang/index.php/Home/Message/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0215s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000712s ]
+
+[ 2016-07-28T09:18:13+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Fenlei&a=lanqiu&id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( id =7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_video` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `blog_video` WHERE ( fenlei= 'lanqiu'  ) ORDER BY id desc  [ RunTime:0.0133s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2b6f835c1daa7bc701a2a3c1d27a0d6b.php 第 83 行.
+NOTIC: [8] Undefined variable: video_time D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2b6f835c1daa7bc701a2a3c1d27a0d6b.php 第 227 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2016-07-28T09:19:10+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Fenlei&a=zuqiu&id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( id =9 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_video` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `blog_video` WHERE ( fenlei= 'zuqiu'  ) ORDER BY id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\1a2480f4ddf9835bc2300ce9b13ae6db.php 第 83 行.
+NOTIC: [8] Undefined variable: video_time D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\1a2480f4ddf9835bc2300ce9b13ae6db.php 第 227 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2016-07-28T09:19:36+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Message&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_liuyan` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_liuyan` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_liuyan` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2016-07-28T09:19:36+08:00 ] ::1 /tangxiang/index.php/Home/Message/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2016-07-28T09:19:42+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Userlist&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `blog_user` ORDER BY id desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_userinfo` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='14' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='12' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='11' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='10' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='8' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='6' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='5' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='4' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='3' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='2' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='1' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\f808b929cb57ce811835c1f04183cde7.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013386s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2016-07-28T09:24:45+08:00 ] ::1 /tangxiang/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE ( status = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_article` WHERE ( status = 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `blog_user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_slides` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `blog_slides` ORDER BY id desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2016-07-28T09:25:00+08:00 ] ::1 /tangxiang/index.php?keywords=%E6%8A%80%E6%9C%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0392s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0494s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0211s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE ( status = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_article` WHERE ( status = 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `blog_user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_slides` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `blog_slides` ORDER BY id desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2016-07-28T09:25:30+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Fenlei&a=lanqiu&id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( id =7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_video` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `blog_video` WHERE ( fenlei= 'lanqiu'  ) ORDER BY id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2b6f835c1daa7bc701a2a3c1d27a0d6b.php 第 83 行.
+NOTIC: [8] Undefined variable: video_time D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2b6f835c1daa7bc701a2a3c1d27a0d6b.php 第 227 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000447s ]
+
+[ 2016-07-28T09:29:51+08:00 ] ::1 /tangxiang/index.php?keywords=%E6%88%91%E5%9C%A8%E8%BF%99%E9%87%8C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0218s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0405s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0245s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE ( status = 0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_article` WHERE ( status = 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_slides` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_slides` ORDER BY id desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015659s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2016-07-28T09:29:57+08:00 ] ::1 /tangxiang/index.php?keywords=%E8%BF%99%E9%87%8C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0321s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0245s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE ( status = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_article` WHERE ( status = 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `blog_user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_slides` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `blog_slides` ORDER BY id desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017430s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000496s ]
+
+[ 2016-07-28T09:30:41+08:00 ] ::1 /tangxiang/index.php?keywords=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0341s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE ( status = 0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_article` WHERE ( status = 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `blog_user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `blog_slides` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `blog_slides` ORDER BY id desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2016-07-28T09:31:13+08:00 ] ::1 /tangxiang/index.php?keywords=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE ( status = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_article` WHERE ( status = 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `blog_user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_slides` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `blog_slides` ORDER BY id desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2016-07-28T09:31:20+08:00 ] ::1 /tangxiang/index.php?keywords=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE ( status = 0 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blog_article` WHERE ( status = 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `blog_user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_slides` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `blog_slides` ORDER BY id desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000963s ]
+
+[ 2016-07-28T09:31:28+08:00 ] ::1 /tangxiang/index.php?keywords=%E6%88%91%E5%9C%A8%E8%BF%99%E9%87%8C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0321s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0332s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE ( status = 0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_article` WHERE ( status = 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `blog_user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_slides` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `blog_slides` ORDER BY id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000712s ]
+
+[ 2016-07-28T09:31:46+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Message&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_liuyan` [ RunTime:0.0024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_liuyan` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_liuyan` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2016-07-28T09:31:46+08:00 ] ::1 /tangxiang/index.php/Home/Message/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2016-07-28T09:32:19+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Message&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_liuyan` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_liuyan` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_liuyan` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000813s ]
+
+[ 2016-07-28T09:32:19+08:00 ] ::1 /tangxiang/index.php/Home/Message/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2016-07-28T09:34:19+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Fenlei&a=lanqiu&id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( id =7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_video` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `blog_video` WHERE ( fenlei= 'lanqiu'  ) ORDER BY id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2b6f835c1daa7bc701a2a3c1d27a0d6b.php 第 83 行.
+NOTIC: [8] Undefined variable: video_time D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2b6f835c1daa7bc701a2a3c1d27a0d6b.php 第 227 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000447s ]
+
+[ 2016-07-28T09:39:37+08:00 ] ::1 /tangxiang/index.php/Home/Article/index/id/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 13 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0030s ]
+SQL: UPDATE `blog_article` SET `view`=view+1 WHERE ( id = 13 ) [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_userinfo` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( id = 12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE ( uid = 1 AND status = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_article` WHERE ( uid = 1 AND status = 0 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 75 行.
+NOTIC: [8] Undefined index: mid D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 341 行.
+NOTIC: [8] Undefined index: mid D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 347 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2016-07-28T09:39:37+08:00 ] ::1 /tangxiang/index.php/Home/Article/getReplay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `blog_comment` WHERE ( aid = 13 ) LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_userinfo` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='13' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='13' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='0' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='0' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='14' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-07-28T09:39:49+08:00 ] ::1 /tangxiang/index.php?keywords=%E6%88%91%E5%9C%A8%E8%BF%99%E9%87%8C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0323s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0246s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE ( status = 0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_article` WHERE ( status = 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_slides` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `blog_slides` ORDER BY id desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2016-07-28T09:39:53+08:00 ] ::1 /tangxiang/index.php/Home/Article/getReplay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `blog_comment` WHERE ( aid = 13 ) LIMIT 0,10   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `blog_userinfo` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='13' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='13' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='0' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='0' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='14' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-07-28T09:46:04+08:00 ] ::1 /tangxiang/index.php/Home/Article/index/id/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 13 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0025s ]
+SQL: UPDATE `blog_article` SET `view`=view+1 WHERE ( id = 13 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_userinfo` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( id = 12 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE ( uid = 1 AND status = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_article` WHERE ( uid = 1 AND status = 0 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000273s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 75 行.
+NOTIC: [8] Undefined index: mid D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 341 行.
+NOTIC: [8] Undefined index: mid D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 347 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2016-07-28T09:46:04+08:00 ] ::1 /tangxiang/index.php/Home/Article/getReplay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `blog_comment` WHERE ( aid = 13 ) LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_userinfo` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='13' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='13' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='0' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='0' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='14' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-07-28T09:52:15+08:00 ] ::1 /tangxiang/index.php/Home/Article/index/id/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 13 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0026s ]
+SQL: UPDATE `blog_article` SET `view`=view+1 WHERE ( id = 13 ) [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_userinfo` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( id = 12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE ( uid = 1 AND status = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_article` WHERE ( uid = 1 AND status = 0 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 75 行.
+NOTIC: [8] Undefined index: mid D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 341 行.
+NOTIC: [8] Undefined index: mid D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 347 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2016-07-28T09:52:15+08:00 ] ::1 /tangxiang/index.php/Home/Article/getReplay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `blog_comment` WHERE ( aid = 13 ) LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_userinfo` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='13' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='13' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='0' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='0' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='14' ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-07-28T10:00:32+08:00 ] ::1 /tangxiang/index.php/Home/Article/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000646s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2016-07-28T10:12:35+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Fenlei&a=lanqiu&id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( id =7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_video` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `blog_video` WHERE ( fenlei= 'lanqiu'  ) ORDER BY id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2b6f835c1daa7bc701a2a3c1d27a0d6b.php 第 83 行.
+NOTIC: [8] Undefined variable: video_time D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2b6f835c1daa7bc701a2a3c1d27a0d6b.php 第 227 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012386s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000700s ]
+
+[ 2016-07-28T10:12:37+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Fenlei&a=zuqiu&id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0259s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( id =9 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_video` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_video` WHERE ( fenlei= 'zuqiu'  ) ORDER BY id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\1a2480f4ddf9835bc2300ce9b13ae6db.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2016-07-28T10:24:41+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Fenlei&a=lanqiu&id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( id =7 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_video` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `blog_video` WHERE ( fenlei= 'lanqiu'  ) ORDER BY id desc  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2b6f835c1daa7bc701a2a3c1d27a0d6b.php 第 83 行.
+NOTIC: [8] Undefined variable: video_time D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2b6f835c1daa7bc701a2a3c1d27a0d6b.php 第 227 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2016-07-28T10:28:36+08:00 ] ::1 /tangxiang/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE ( status = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_article` WHERE ( status = 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_slides` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `blog_slides` ORDER BY id desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2016-07-28T10:30:33+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Message&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_liuyan` [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_liuyan` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_liuyan` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000975s ]
+
+[ 2016-07-28T10:30:33+08:00 ] ::1 /tangxiang/index.php/Home/Message/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2016-07-28T10:33:14+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Message&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_liuyan` [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_liuyan` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_liuyan` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013504s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2016-07-28T10:33:14+08:00 ] ::1 /tangxiang/index.php/Home/Message/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2016-07-28T10:33:16+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Fenlei&a=php&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( id =2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE ( fid = '2' AND status = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_article` WHERE ( fid = '2' AND status = 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0003s ]
+ERR: 模板不存在:./Application/Home/View/Fenlei/php.html
+
+[ 2016-07-28T10:33:33+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Fenlei&a=php&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( id =2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE ( fid = '2' AND status = 0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_article` WHERE ( fid = '2' AND status = 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0003s ]
+ERR: 模板不存在:./Application/Home/View/Fenlei/index.html.html
+
+[ 2016-07-28T10:33:40+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Fenlei&a=php&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( id =2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE ( fid = '2' AND status = 0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_article` WHERE ( fid = '2' AND status = 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000265s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000333s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\88a28a0c9cdfdb281546378ac54f6f0d.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2016-07-28T10:33:43+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Fenlei&a=php&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( id =2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE ( fid = '2' AND status = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_article` WHERE ( fid = '2' AND status = 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\88a28a0c9cdfdb281546378ac54f6f0d.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020656s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2016-07-28T10:33:45+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Fenlei&a=css&id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 非法操作:css
+
+[ 2016-07-28T10:33:50+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Fenlei&a=php&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( id =2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE ( fid = '2' AND status = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_article` WHERE ( fid = '2' AND status = 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\88a28a0c9cdfdb281546378ac54f6f0d.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2016-07-28T10:34:36+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Fenlei&a=php&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( id =2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE ( fid = '2' AND status = 0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_article` WHERE ( fid = '2' AND status = 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\88a28a0c9cdfdb281546378ac54f6f0d.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000426s ]
+
+[ 2016-07-28T10:34:38+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Fenlei&a=xinlinzhisheng&id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 非法操作:xinlinzhisheng
+
+[ 2016-07-28T10:34:52+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Fenlei&a=xinlinzhisheng&id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( id =12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE ( fid = '12' AND status = 0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_article` WHERE ( fid = '12' AND status = 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `blog_user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000335s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\88a28a0c9cdfdb281546378ac54f6f0d.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000947s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001022s ]
+
+[ 2016-07-28T10:35:01+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Article&a=index&id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 13 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0027s ]
+SQL: UPDATE `blog_article` SET `view`=view+1 WHERE ( id = 13 ) [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_userinfo` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( id = 12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE ( uid = 1 AND status = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_article` WHERE ( uid = 1 AND status = 0 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 75 行.
+NOTIC: [8] Undefined index: mid D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 341 行.
+NOTIC: [8] Undefined index: mid D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 347 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2016-07-28T10:35:01+08:00 ] ::1 /tangxiang/index.php/Home/Article/getReplay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `blog_comment` WHERE ( aid = 13 ) LIMIT 0,10   [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `blog_userinfo` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='13' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='13' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='1' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='0' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='1' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='0' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='14' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-07-28T10:35:46+08:00 ] ::1 /tangxiang/index.php/Home/Article/getReplay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `blog_comment` WHERE ( aid = 13 ) LIMIT 10,10   [ RunTime:0.0003s ]
+
+[ 2016-07-28T10:35:47+08:00 ] ::1 /tangxiang/index.php/Home/Article/getReplay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `blog_comment` WHERE ( aid = 13 ) LIMIT 10,10   [ RunTime:0.0002s ]
+
+[ 2016-07-28T12:07:18+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Article&a=index&id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 13 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0031s ]
+SQL: UPDATE `blog_article` SET `view`=view+1 WHERE ( id = 13 ) [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_userinfo` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( id = 12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE ( uid = 1 AND status = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_article` WHERE ( uid = 1 AND status = 0 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 75 行.
+NOTIC: [8] Undefined index: mid D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 341 行.
+NOTIC: [8] Undefined index: mid D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 347 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000808s ]
+
+[ 2016-07-28T12:07:18+08:00 ] ::1 /tangxiang/index.php/Home/Article/getReplay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `blog_comment` WHERE ( aid = 13 ) LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_userinfo` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='13' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='13' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='0' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='0' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_userinfo` WHERE ( 1=1 AND uid='14' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-07-28T12:07:28+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Fenlei&a=lanqiu&id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( id =7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_video` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_video` WHERE ( fenlei= 'lanqiu'  ) ORDER BY id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2b6f835c1daa7bc701a2a3c1d27a0d6b.php 第 83 行.
+NOTIC: [8] Undefined variable: video_time D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2b6f835c1daa7bc701a2a3c1d27a0d6b.php 第 227 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2016-07-28T12:07:30+08:00 ] ::1 /tangxiang/index.php?m=Home&c=Fenlei&a=xiaoyouxi&id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( id =13 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\dc29b1715846810000eee9b92b2f7118.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2016-07-28T12:08:06+08:00 ] ::1 /tangxiang/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_site` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_email_set` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE ( status = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_article` WHERE ( status = 0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_user` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_fenlei` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `blog_fenlei` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_slides` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `blog_slides` ORDER BY id desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Undefined index: muser D:\XAMPP\xampp\htdocs\tangxiang\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015710s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000608s ]
+

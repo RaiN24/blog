@@ -1,0 +1,263 @@
+
+<style type="text/css">
+    .lanqiu_left{font-size: 24px}
+    .text_box2 {padding:5px 0 5px 10px; }
+    .text_box2 {clear:both; padding:20px 0 0 10px;border-bottom:2px solid #B50000;_zoom:1}
+    .text_box2 .p_video {position: relative;width:124px; height:215px; margin:0 30px;float:left;_display:inline}
+    .text_box2 .p_video .img_outer img{width:120px; height:72px}
+    .text_box2 .p_video{margin-top: 20px;}
+    .user-option {
+        padding: 15px;
+        font-size: 15px;
+    }
+
+    .user-option > div{
+        margin-top: 15px;
+    }
+
+    .user-option .title {
+        color: rgb(100,100,100);
+    }
+
+    .user-option .item {
+        text-align: center;
+        cursor: pointer;
+        font-size: 15px;
+        font-weight: 500;
+        color: rgb(211, 138, 33);
+        padding: 5px 10px;
+        margin-right: 5px;
+    }
+
+    .user-option .active {
+        background-color: rgb(211, 138, 33);
+        border-radius: 5px;
+        color: white;
+    }
+
+    .user-option span.active:hover {
+        color: white;
+    }
+
+    .user-option .item:hover {
+        color: rgba(211, 138, 33, 0.5);
+    }
+    .one-list-act {
+        padding: 20px 0px;
+        border-top: 1px solid rgb(213,213,213);
+        overflow: hidden;
+    }
+
+    .one-list-act > .act-poster {
+        overflow: hidden;
+        cursor: pointer;
+        padding: 0px;
+        height: 159px;
+        border-radius: 5px;
+        background-color: rgb(240,240,240);
+    }
+
+    .one-list-act > .act-info {
+        color: #5d5d5d;
+        padding: 0px 0px 0px 35px;
+    }
+
+    .one-list-act > .act-info > .act-title {
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+        height: 25px;
+        padding-left: 0px;
+        overflow: hidden;
+        margin-bottom: 4px;
+    }
+
+    .one-list-act > .act-info > .act-status {
+        margin-top: 5px;
+        font-size: 12px;
+        padding: 1px 8px;
+    }
+
+    .one-list-act > .act-info > .act-desc > p {
+        margin: 8px 0px 0px 0px;
+        height: 20px;
+        overflow: hidden;
+    }
+
+    .one-list-act > .act-info > .act-desc > .act-detail {
+        margin-top: 5px;
+        height: auto;
+    }
+    .one-list-act{
+        border-top-width: 0px;
+        padding-top: 5px;
+    }
+    .poster {
+        overflow: hidden;
+        width: 100%;
+        height: 184px;
+        background-color: rgb(230,230,230);
+    }
+</style>
+<!-- <link href="http://www.tongqu.me/js/lib-dist/core-all.css?hash=bfff6b" rel="stylesheet" media="screen">
+<link href="http://www.tongqu.me/js/ng/directive/tqPage/tqPage.css?hash=50c7fa" rel="stylesheet" media="screen">
+<link href="http://www.tongqu.me/js/app/act_type/act_type.css?hash=4d499b" rel="stylesheet" media="screen"> -->
+<!-- 调用头部文件 -->
+<include file = "Public:homeheader" title = "{$fenleiInfo.name}-{$SiteInfo.title}" />
+
+
+<!-- 本页导航栏开始 -->
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-10">
+        <h2>首页</h2>
+        <ol class="breadcrumb">
+            <li>
+                <a href="__APP__">首页</a>
+            </li>
+            <li class="active">
+                <strong>{$fenleiInfo.name}</strong>
+            </li>
+        </ol>
+    </div>
+    <div class="col-lg-2">
+
+    </div>
+</div>
+<!-- 本页导航栏结束 -->
+<!-- 正文开始 -->
+<div>
+    <div class="user-option">
+        <div>
+            <span class="title">
+                分类：
+            </span>
+            <foreach name = "ac_type" item = "vo">
+                <if condition="$vo.id eq $choose_type">
+                    <span class="item active" onclick="changeType({$vo.id})">
+                        {$vo.type}
+                    </span>
+                <else />
+                    <span class="item" onclick="changeType({$vo.id})">
+                        {$vo.type}
+                    </span>
+                </if>
+            </foreach>
+        </div>
+        <div>
+            <span class="title">
+                状态：
+            </span>
+            <foreach name = "ac_condition" item = "vo">
+                <if condition="$vo.id eq $choose_condition">
+                    <span class="item active" onclick="changeCondition({$vo.id})">
+                        {$vo.condition}
+                    </span>
+                <else />
+                    <span class="item" onclick="changeCondition({$vo.id})">
+                        {$vo.condition}
+                    </span>
+                </if>
+            </foreach>
+        </div>
+        <div>
+            <span class="title">
+                排序：
+            </span>
+            <foreach name = "ac_order" item = "vo">
+                <if condition="$vo.id eq $choose_order">
+                    <span class="item active" onclick="changeOrder({$vo.id})">
+                        {$vo.order}
+                    </span>
+                <else />
+                    <span class="item" onclick="changeOrder({$vo.id})">
+                        {$vo.order}
+                    </span>
+                </if>
+            </foreach>
+        </div>
+    </div>
+    <hr>
+    <div class="col-lg-8">
+        <foreach name="action" item="vo">
+        <div class="one-list-act" fade-in>
+            <div class="act-poster col-xs-3" onclick="showAction({$vo.id})">
+                <img src="{$vo.poster}" class="poster">
+            </div>
+            <div class="act-info col-xs-9">
+                <div class="act-title" onclick="showAction({$vo.id})">
+                    {$vo.title}
+                </div>
+                <div class="act-desc">
+                    <div class="act-status label">
+                        {$vo.condition}
+                    </div>
+                    <p>时间：{$vo.vote_stime} --- {$vo.vote_etime}</p>
+                    <p>地点：{$vo.place}</p>
+                    <p>人数：{$vo.vote_num}&nbsp;/&nbsp;{$vo.max_num}
+                    </p>
+                    <p>发起：{$vo.publisher}
+                    </p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        </foreach>
+    </div>
+    
+</div>
+
+        <!-- <div class="col-lg-8 list">
+            <tq-one-act tq-act="act" tag="1">
+            </tq-one-act>
+            <div class="help-block">抱歉，暂时没有该类型活动。</div>
+            <tq-page total-items="total_count" items-per-page="number" callback="changePage($page)"></tq-page>
+        </div>
+        <div class="col-lg-4 recommend" ng-hide="mobileView">
+            <a href="#" class="btn tq-btn-orange create-act"><i class="fa fa-plus"></i> 发布活动
+            </a>
+            <div class="title">推荐活动</div>
+                <tq-one-act ng-repeat="act in acts_recommend" tq-act="act" tag="2"></tq-one-act>
+        </div>
+        <div style="clear:both"></div> -->
+    </div>
+</div>
+<!-- 正文结束 -->
+
+<!-- 调用脚部文件 -->
+<include file = "Public:homefooter"  />
+<script type="text/javascript">
+    function changeType(type){
+        // console.log(type)
+        var condition=getUrlParam("condition")?getUrlParam("condition"):1;
+        var order=getUrlParam("order")?getUrlParam("order"):1;
+        var type=type;
+        window.location="/tangxiang/index.php?m=Home&c=Fenlei&a=huodongkongjian&id=15&type="+type
+        +"&condition="+condition+"&order="+order;
+    }
+    function changeOrder(order){
+        var condition=getUrlParam("condition")?getUrlParam("condition"):1;
+        var order=order;
+        var type=getUrlParam("type")?getUrlParam("type"):1;
+        window.location="/tangxiang/index.php?m=Home&c=Fenlei&a=huodongkongjian&id=15&type="+type
+        +"&condition="+condition+"&order="+order;
+    }
+    function changeCondition(condition){
+        var condition=condition;
+        var order=getUrlParam("order")?getUrlParam("order"):1;
+        var type=getUrlParam("type")?getUrlParam("type"):1;
+        window.location="/tangxiang/index.php?m=Home&c=Fenlei&a=huodongkongjian&id=15&type="+type
+        +"&condition="+condition+"&order="+order;
+    }
+    function showAction(id){
+        window.location="/tangxiang/index.php?m=Home&c=Fenlei&a=showAction&id=15&ac_id="+id;
+    }
+    function getUrlParam(name){  
+    //构造一个含有目标参数的正则表达式对象  
+    var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");  
+    //匹配目标参数  
+    var r = window.location.search.substr(1).match(reg);  
+    //返回参数值  
+    if (r!=null) return unescape(r[2]);  
+    return null;  
+} 
+</script>

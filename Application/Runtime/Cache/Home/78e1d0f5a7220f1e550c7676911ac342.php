@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?><center><h1>你迷路了</h1></center>

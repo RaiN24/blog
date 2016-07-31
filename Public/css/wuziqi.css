@@ -1,0 +1,38 @@
+/*@media only screen and (min-width: 767px) and (min-height:767px){
+    canvas{
+    		width: 600px;
+    		height: 600px;
+    		display: block;
+    		margin:50px auto;
+    		box-shadow: -2px -2px 2px #EFEFEF,5px 5px 5px #B9B9B9;
+    	} 
+}
+@media only screen and (min-width: 767px) and (max-height:600px){
+    canvas{
+    		width: 450px;
+    		height: 450px;
+    		display: block;
+    		margin:50px auto;
+    		box-shadow: -2px -2px 2px #EFEFEF,5px 5px 5px #B9B9B9;
+    	} 
+}*/
+/***** iPhone (portrait) *****/
+@media only screen and (max-width: 480px) {
+	canvas{	
+			/*width: 300px;
+			height: 300px;*/
+			display: block;
+			margin:30px auto;
+			box-shadow: -2px -2px 2px #EFEFEF,5px 5px 5px #B9B9B9;
+		} 
+}
+
+@media only screen and (min-width: 480px) {
+	canvas{
+			/*width: 450px;
+			height: 450px; */
+			display: block;
+			margin:40px auto;
+			box-shadow: -2px -2px 2px #EFEFEF,5px 5px 5px #B9B9B9;
+		} 
+}
